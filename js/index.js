@@ -17,7 +17,6 @@ function solveQuadratic(a, b, c) {
     }
     return 'x1 = ' + x1 + ', x2= ' + x2;
 }
-var c = parseFloat(prompt('Enter c'));
 
 let a;
  let corr1 = false;
@@ -50,5 +49,4 @@ let a;
  }
 
 var result = solveQuadratic(a, b, c);
-
 document.write(result);
