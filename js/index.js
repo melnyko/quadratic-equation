@@ -43,5 +43,5 @@ let a;
        alert('Please enter correct c');
    }
  }
-var result = solveQuadratic(a, b, c);
-document.write(result);
+var res = solveQuadratic(a, b, c);
+document.write(res);
