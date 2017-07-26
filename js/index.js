@@ -11,7 +11,7 @@ function solveQuadratic(a, b, c) {
        if (discr == 0){
            x1=x2=-b/2*a;
        }else {
-           return 'No roots!'
+           return 'There are not any roots!'
        }
     }
     return 'x1 = ' + x1 + ', x2= ' + x2;
