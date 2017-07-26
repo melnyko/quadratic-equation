@@ -1,7 +1,6 @@
 function calcDiscr(a, b, c) {
     return b * b - 4 * a * c;
 }
-
 function solveQuadratic(a, b, c) {
     let x1, x2;
     let discr = calcDiscr(a, b, c);
@@ -17,7 +16,6 @@ function solveQuadratic(a, b, c) {
     }
     return 'x1 = ' + x1 + ', x2= ' + x2;
 }
-
 let a;
  let corr1 = false;
  while (!corr1) {
@@ -27,7 +25,6 @@ let a;
        alert('Please enter correct a');
    }
  }
- 
  let b;
  let corr2 = false;
  while (!corr2) {
@@ -37,7 +34,6 @@ let a;
        alert('Please enter correct b');
    }
  }
- 
  let c;
  let corr3 = false;
  while (!corr3) {
@@ -47,6 +43,5 @@ let a;
        alert('Please enter correct c');
    }
  }
-
 var result = solveQuadratic(a, b, c);
 document.write(result);
