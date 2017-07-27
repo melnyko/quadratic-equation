@@ -5,8 +5,8 @@ function solveQuadratic(a, b, c) {
     let x1, x2;
     let discr = calcDiscr(a, b, c);
     if (discr > 0) {
-        x1=(-b-Math.sqrt(discr))/2*a;
-        x2=(-b+Math.sqrt(discr))/2*a;
+        x1=(-b-Math.sqrt(discr))/(2*a);
+        x2=(-b+Math.sqrt(discr))/(2*a);
     } else {
        if (discr == 0){
            x1=x2=-b/2*a;
